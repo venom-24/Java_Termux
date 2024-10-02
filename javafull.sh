@@ -44,7 +44,7 @@ clear
 
 echo -e "\e[1;36m[*] \e[1;36mDownloading Java 8 For Termux ( required 80mb ) ${archname}    "
 
-wget https://github.com/venom-24/beef-24/releases/download/${tag}/jdk8_${archname}.tar.gz -q
+wget  https://github.com/venom-24/Java_Termux/releases/download/${tag}/jdk8_${archname}.tar.gz -q
 
 echo -e "\e[1;36m[*] \e[1;36mMover JDK al systema..."
 mv jdk8_${archname}.tar.gz $PREFIX/share
