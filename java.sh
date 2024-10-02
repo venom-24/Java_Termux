@@ -19,7 +19,7 @@ apt install figlet wget -y
 clear
 printf $green		
 figlet -f bubble.flf JAVA EN TERMUX
-sleep 1.0
+sleep 2.0
 echo
 cd $HOME/Java_Termux
 bash javafull.sh
