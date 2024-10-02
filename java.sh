@@ -9,8 +9,14 @@
                 magenta='\033[1;35m'                 
                 cyan='\033[1;36m'                    
                 reset='\033[0m'
-
-
+printf $cyan
+echo "INSTALANDO REPOSITORIOS"
+echo
+sleep  1.0
+apt update -y
+apt upgrade -y
+apt install figlet wget -y
+clear
 printf $green		
 figlet -f bubble.flf JAVA EN TERMUX
 sleep 1.0
